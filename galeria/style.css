@@ -1,0 +1,141 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100vh;
+    width: 100vw;
+    }
+
+    div{
+        background-position: center;
+        background-size: cover;
+        
+    }
+    
+    .div1 {
+         grid-area: 1 / 1 / 2 / 2;
+         background-color: red; 
+         background-image: url(img/img1.avif) 
+        }
+
+    .div2 { 
+        grid-area: 1 / 2 / 2 / 3; 
+        background-color: rgb(21, 255, 0);
+        background-image: url(img/img2.avif)  
+        }
+
+    .div3 { 
+        grid-area: 2 / 1 / 3 / 3; 
+        background-color: rgb(0, 21, 255);
+        background-image: url(img/img3.avif)  
+        }
+
+    .div4 { 
+        grid-area: 3 / 1 / 5 / 3; 
+        background-color: rgb(255, 0, 102);
+        background-image: url(img/img4.avif)  
+        }
+
+    .div5 { 
+        grid-area: 5 / 1 / 6 / 2; 
+        background-color: rgb(225, 255, 0);
+        background-image: url(img/img5.avif) 
+        }
+
+    .div6 { 
+        grid-area: 5 / 2 / 6 / 3;
+        background-color: rgb(255, 242, 0); 
+        background-image: url(img/img6.jpg)  
+        }
+
+    .div7 { 
+        grid-area: 1 / 3 / 2 / 4;
+        background-color: rgb(21, 73, 186);  
+        background-image: url(img/img7.jpg) 
+        }
+
+    .div8 { 
+        grid-area: 2 / 3 / 4 / 4; 
+        background-color: rgb(0, 255, 38); 
+        background-image: url(img/img8.avif) 
+        }
+
+    .div9 { 
+        grid-area: 4 / 3 / 6 / 5; 
+        background-color: rgb(0, 174, 255); 
+        background-image: url(img/img9.avif) 
+    }
+
+    .div10 {
+        grid-area: 1 / 4 / 3 / 5; 
+        background-color: rgb(110, 150, 17);
+        background-image: url(img/img10.avif)  
+    }
+
+    .div11 {
+         grid-area: 3 / 4 / 4 / 5;
+         background-color: rgb(13, 192, 108); 
+         background-image: url(img/img11.avif) 
+         }
+
+    .div12 {
+         grid-area: 1 / 5 / 2 / 6;
+         background-color: rgb(119, 255, 0); 
+         background-image: url(img/img12.avif) 
+         }
+
+    .div13 {
+         grid-area: 1 / 6 / 2 / 8;
+         background-color: rgb(255, 98, 0); 
+         background-image: url(img/img13.avif) 
+         }
+
+    .div14 {
+         grid-area: 1 / 8 / 3 / 9;
+         background-color: rgb(0, 123, 255); 
+         background-image: url(img/img14.avif) 
+         }
+
+    .div15 {
+         grid-area: 2 / 5 / 4 / 7;
+         background-color: rgb(68, 255, 0); 
+         background-image: url(img/img15.avif) 
+         }
+
+    .div16 {
+         grid-area: 4 / 5 / 6 / 6;
+         background-color: rgb(0, 166, 255); 
+         background-image: url(img/img16.avif) 
+         }
+
+    .div17 {
+         grid-area: 4 / 6 / 5 / 7;
+         background-color: rgb(255, 0, 162); 
+         background-image: url(img/img17.avif) 
+         }
+
+    .div18 {
+         grid-area: 5 / 6 / 6 / 7;
+         background-color: rgb(161, 27, 121); 
+         background-image: url(img/img18.avif) 
+         }
+
+    .div19 {
+         grid-area: 2 / 7 / 3 / 8;
+         background-color: rgb(0, 34, 255); 
+         background-image: url(img/img19.avif) 
+         }
+
+    .div20 {
+         grid-area: 3 / 7 / 6 / 9;
+         background-color: rgb(0, 255, 0); 
+         background-image: url(img/img20.avif) 
+         }
